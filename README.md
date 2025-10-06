@@ -229,7 +229,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you have any questions or need help:
 - Open an issue on GitHub
 - Contact us at [https://my-portfolio-six-rho-85.vercel.app/]
-- Join our [Discord/Telegram community]
 
 ## 🙏 Acknowledgments
 
