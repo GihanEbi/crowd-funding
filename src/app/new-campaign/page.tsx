@@ -31,6 +31,7 @@ interface Campaign {
 // Add global declaration for window.ethereum
 declare global {
   interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     ethereum?: any;
   }
 }
@@ -111,6 +112,7 @@ const Page = () => {
           params: [{ chainId: SEPOLIA_HEX_CHAIN_ID }],
         });
         console.log("Switched to Sepolia network");
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
       } catch (switchError: any) {
         console.error("Failed to switch network", switchError);
         // This error code indicates that the chain has not been added to MetaMask.
